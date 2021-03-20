@@ -9,7 +9,7 @@ import { MessageService } from './message.service';
 
 // We register the service to a provider before injecting it to a Component
 @Injectable({
-  // It is provided in the root directory hence any class can register this service and use it.
+  // It is provided in the root directory hence any class can inject this service and use it.
   providedIn: 'root'
 })
 export class HeroService {
